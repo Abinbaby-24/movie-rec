@@ -1,6 +1,6 @@
 # 🎬 Cinema.ai- AI Powered Movie Recommendation System
 
-CineMatch is a **Content-Based Movie Recommendation System** built using **Machine Learning**, **Flask**, and **React**. It recommends movies similar to a user's selection by analyzing movie metadata such as genres, cast, crew, keywords, and overview.
+Cinema.ai is a **Content-Based Movie Recommendation System** built using **Machine Learning**, **Flask**, and **React**. It recommends movies similar to a user's selection by analyzing movie metadata such as genres, cast, crew, keywords, and overview.
 
 ---
 
