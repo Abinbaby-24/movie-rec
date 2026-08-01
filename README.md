@@ -218,7 +218,7 @@ Response
 
 ### Movie Recommendations
 
-> Add a screenshot here
+![Recommendations](screenshots/recommendation.png)
 
 ---
 
@@ -283,7 +283,7 @@ B.Tech Computer Science and Engineering
 College of Engineering Cherthala
 
 - GitHub: https://github.com/Abinbaby-24
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
+- LinkedIn: https://www.linkedin.com/in/abin-baby-0001-
 
 ---
 
