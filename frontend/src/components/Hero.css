@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    background-image:url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop");
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+
+    font-family:'Manrope',sans-serif;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.78),
+        rgba(0,0,0,.95)
+    );
+}
+
+.hero-content{
+    position:relative;
+    z-index:10;
+
+    max-width:850px;
+    padding:20px;
+}
+
+.hero h1{
+    color:#fff;
+    font-size:72px;
+    font-weight:800;
+    line-height:1.08;
+    letter-spacing:-2px;
+
+    margin-bottom:24px;
+}
+
+.hero h1 span{
+    color:#E50914;
+}
+
+.hero p{
+    color:#d9d9d9;
+    font-size:20px;
+    font-weight:400;
+    line-height:1.8;
+
+    max-width:650px;
+    margin:0 auto 42px;
+
+    letter-spacing:.2px;
+}
+
+.hero-btn{
+
+    padding:16px 42px;
+
+    border:none;
+    border-radius:50px;
+
+    background:#E50914;
+    color:#fff;
+
+    font-size:17px;
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+    cursor:pointer;
+
+    transition:all .35s ease;
+}
+
+.hero-btn:hover{
+
+    background:#ff2d38;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 40px rgba(229,9,20,.35);
+
+}
+
+.hero-btn:active{
+
+    transform:translateY(-1px);
+
+}
+
+@media(max-width:992px){
+
+    .hero h1{
+
+        font-size:58px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero{
+
+        padding:0 20px;
+
+    }
+
+    .hero h1{
+
+        font-size:44px;
+        letter-spacing:-1px;
+        line-height:1.15;
+
+    }
+
+    .hero p{
+
+        font-size:17px;
+        line-height:1.7;
+
+    }
+
+    .hero-btn{
+
+        width:100%;
+        max-width:260px;
+
+        padding:15px 30px;
+
+        font-size:16px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .hero h1{
+
+        font-size:36px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+}

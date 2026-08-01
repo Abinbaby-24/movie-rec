@@ -1,0 +1,23 @@
+# Python
+env/
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# React
+frontend/node_modules/
+
+# Large ML files
+backend/similarity.pkl
+
